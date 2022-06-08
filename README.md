@@ -1,34 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<center><h1 align="center">🔍 新山宽柔中学学生资料查询系统</h1></center>
 
-## Getting Started
+<p align="center">所有数据皆从学校官网获得，仅供参考，不得用于非法活动</p>
 
-First, run the development server:
+## The Problem
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Someone has found a vunerability in the student management system of our school, allowing us to access the data without proper login.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## The Solution
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+So yeah! I decided to make a simple website for displaying the data.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 🖥 Screenshots
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<div>
 
-## Learn More
+ 
+ <img width="49%" alt="Screenshot 2022-06-08 at 12 48 52 PM" src="https://user-images.githubusercontent.com/64565584/172534852-5f071c47-a394-4464-85ec-6f47188e1ab0.png">
+ <img width="49%" alt="Screenshot 2022-06-08 at 12 49 07 PM" src="https://user-images.githubusercontent.com/64565584/172534846-1a656e69-5773-4bdb-84a1-e8df2e9b937e.png">
+ <img width="49%" alt="Screenshot 2022-06-08 at 12 49 21 PM" src="https://user-images.githubusercontent.com/64565584/172534814-24a71c6d-57f8-4320-931d-bd7f48634b5f.png">
+  
+</div>
 
-To learn more about Next.js, take a look at the following resources:
+## 🔬 Technologies Used 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![skills](https://img.shields.io/badge/-JAVASCRIPT-FF0000?style=for-the-badge&logo=javascript&logoColor=white&color=yellow)
+![skills](https://img.shields.io/badge/-HTML-FF0000?style=for-the-badge&logo=html5&logoColor=white&color=green)
+![skills](https://img.shields.io/badge/-CSS-FF0000?style=for-the-badge&logo=css3&logoColor=white&color=indigo)
+![skills](https://img.shields.io/badge/-TAILWIND_CSS-FF0000?style=for-the-badge&logo=tailwindcss&logoColor=white&color=22D3EE)
+![skills](https://img.shields.io/badge/-NEXT_JS-FF0000?style=for-the-badge&logo=nextdotjs&logoColor=white&color=black)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## ⌨️ Setup
 
-## Deploy on Vercel
+If you want to run the website on your local machine:
+1. Clone the repository: `git clone https://github.com/melvinchia3636/foonyewsucks`
+2. Install all required dependencies using `npm install` or `yarn`
+4. Run `npm run dev` or `yarn run dev` and you're good to go.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📈 Status
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is fully completed. If any bugs are found, please file an issue here, and I'll resolve it ASAP.
+
+## 💡 Inspirations 
+
+This is... kinda illegal I guess.
+
+## 📄 License
+
+Copyright © 2022 Melvin Chia<br/>
+Licensed under MIT.
