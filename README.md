@@ -26,6 +26,7 @@ So yeah! I decided to make a simple website for displaying the data.
 ![skills](https://img.shields.io/badge/-JAVASCRIPT-FF0000?style=for-the-badge&logo=javascript&logoColor=white&color=yellow)
 ![skills](https://img.shields.io/badge/-HTML-FF0000?style=for-the-badge&logo=html5&logoColor=white&color=green)
 ![skills](https://img.shields.io/badge/-CSS-FF0000?style=for-the-badge&logo=css3&logoColor=white&color=indigo)
+![skills](https://img.shields.io/badge/-PYTHON-FF0000?style=for-the-badge&logo=python&logoColor=white&color=blue)
 ![skills](https://img.shields.io/badge/-TAILWIND_CSS-FF0000?style=for-the-badge&logo=tailwindcss&logoColor=white&color=22D3EE)
 ![skills](https://img.shields.io/badge/-NEXT_JS-FF0000?style=for-the-badge&logo=nextdotjs&logoColor=white&color=black)
 
