@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
-import student from '../students.json';
+import student from '../assets/students.json';
 
 export default function Main() {
   const [filteredStudent, setFilteredStudent] = useState([]);

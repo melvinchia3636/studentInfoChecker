@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import students from '../students.json';
+import students from '../assets/students.json';
 
 export default function BasicInfo({ data, id }) {
   return (

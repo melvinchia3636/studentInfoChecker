@@ -8,7 +8,7 @@ import CardDetailsRecord from '../../components/CardDetailsRecord';
 import CardRecord from '../../components/CardRecord';
 import ExamRes from '../../components/ExamRes';
 import PaymentRecord from '../../components/PaymentRecord';
-import students from '../../students.json';
+import students from '../../assets/students.json';
 
 function StudentData() {
   const router = useRouter();
