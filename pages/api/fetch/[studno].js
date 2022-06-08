@@ -27,6 +27,7 @@ async function scrapeData(target) {
     Cookie: Object.keys(COOKIES)
       .map((key) => `${key}=${COOKIES[key]}`)
       .join('; '),
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
   };
 
   await axios('https://fystudent.foonyew.edu.my/login.php', {
