@@ -16,7 +16,7 @@ export default function Main() {
   return (
     <main className="w-full h-screen bg-neutral-50 flex px-8 flex-col items-center py-32 text-neutral-600">
       <p className="text-xl mb-2">新山宽柔中学</p>
-      <h1 className="text-4xl">学生资料查询系统</h1>
+      <h1 className="text-4xl text-center">学生资料查询系统</h1>
       <p className="mt-4 mb-6 text-neutral-400 text-center">
         所有数据皆从学校官网获得，仅供参考，不得用于非法活动
       </p>
