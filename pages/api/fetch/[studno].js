@@ -1,3 +1,4 @@
+/* eslint-disable default-case */
 /* eslint-disable prefer-destructuring */
 /* eslint-disable no-loop-func */
 /* eslint-disable no-inner-declarations */
@@ -27,7 +28,8 @@ async function scrapeData(target) {
     Cookie: Object.keys(COOKIES)
       .map((key) => `${key}=${COOKIES[key]}`)
       .join('; '),
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
+    'User-Agent':
+      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
   };
 
   await axios('https://fystudent.foonyew.edu.my/login.php', {
@@ -43,7 +45,6 @@ async function scrapeData(target) {
   }).then((res) => res.data);
 
   const mainDOM = new JSDOM(mainRAW).window.document;
-  console.log(mainDOM.querySelector('h1').textContent);
   const [, _class, name] = mainDOM.querySelector('h1').textContent.split(' ');
 
   async function getPaymentItems() {
@@ -207,7 +208,10 @@ async function scrapeData(target) {
           .map((e, i) => [['val', 'total'][i], parseInt(e, 10)]),
       );
       final = final.textContent.trim();
-      awpn = awpn.textContent.trim().split('.').filter((e) => e);
+      awpn = awpn.textContent
+        .trim()
+        .split('.')
+        .filter((e) => e);
       cocurr = cocurr.textContent.split('.').filter((e) => e);
 
       examRes[year] = {

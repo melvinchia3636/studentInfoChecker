@@ -104,7 +104,7 @@ export default function ExamRes({ data }) {
                 缺席扣分
               </td>
               <td className="p-2 text-right">
-                {data.examRes[currentYear].deduct.toFixed(2)}
+                {data.examRes[currentYear].deduct?.toFixed(2)}
               </td>
             </tr>
             <tr className="!border-0">

